@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { MdDeleteForever } from "react-icons/md";
-import { bagActions } from "../store/BagSlice";
+import { bagActions } from "../store/bagSlice";
 
 const BagItem = ({ item }) => {
   const dispatch = useDispatch();
