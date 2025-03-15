@@ -1,6 +1,6 @@
 import {configureStore} from "@reduxjs/toolkit"
 import itemsSlice from "./itemSlice";
-import fetchStatusSlice from "./fetchStatusSlice";
+import fetchStatusSlice from "./FetchStatusSlice";
 import bagSlice from "./BagSlice";
 
 const myntraStore = configureStore({
