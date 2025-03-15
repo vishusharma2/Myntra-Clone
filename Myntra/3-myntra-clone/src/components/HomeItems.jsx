@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { bagActions } from "../store/BagSlice";
+import { bagActions } from "../store/bagSlice";
 import { IoIosAddCircle } from "react-icons/io";
 import { IoRemoveCircle } from "react-icons/io5";
 
